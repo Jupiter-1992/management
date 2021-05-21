@@ -1,0 +1,55 @@
+// element-ui颜色变量地址：https://github.com/ElementUI/theme-chalk/blob/master/src/common/var.scss
+
+// 品牌色-绿色
+$--color-primary: #10c599;
+// 功能色-成功色-绿色
+$--color-success: #33cc99;
+// 功能色-警报色-黄色
+$--color-warning: #ff9900;
+// 功能色-危险色-红色
+$--color-danger: #ff6666;
+// 功能色-信息色-灰色
+$--color-info: #959595;
+
+// 中性色-白色-纯白
+$--color-white: #fff;
+// 中性色-黑色-纯黑
+$--color-black: #000;
+
+// 中性色-文本-标题文本
+$--color-text-primary: #303133;
+// 中性色-文本-普通文本
+$--color-text-regular: #606266;
+// 中性色-文本-次要文本
+$--color-text-secondary: #909399;
+// 中性色-文本-占位文本
+$--color-text-placeholder: #c0c4cc;
+
+// 中性色-边框-基础
+$--border-color-base: #DCDFE6;
+// 中性色-边框-亮点
+$--border-color-light: #E4E7ED;
+// 中性色-边框-更亮
+$--border-color-lighter: #EBEEF5;
+// 中性色-边框-再亮
+$--border-color-extra-light: #F2F6FC;
+
+
+// 主题色-背景色(+90%的白色)
+$--color-primary-lighter: mix($--color-white, $--color-primary, 90%);
+// 主题色-悬浮色(+20%的白色)
+$--color-primary-hover: mix($--color-white,$--color-primary,20%);
+// 主题色-点击色(+10%的黑色)
+$--color-primary-active: mix($--color-black,$--color-primary,10%);
+
+// 功能色-成功色-背景色(+90%的白色)
+$--color-success-lighter: mix($--color-white, $--color-success, 90%);
+
+/*
+*  侧边栏菜单颜色
+*/
+
+$--color-sidebar-background: #324554;
+// $--color-sidebar-background-hover: mix($--color-black,$--color-sidebar-background,20%);
+// $--color-sidebar-text: rgba(255,255,255,.65);
+// $--color-sidebar-text-active: #ffd04b;
